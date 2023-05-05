@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@200&family=Space+Grotesk:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.sub-container1{
+    display: inline-block;
+    margin: 5em 5em 10em 5em;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ff8a00, #e52e71) 1;
+}
+
+.sub-container2{
+    display: inline-block;
+    margin: 5em 5em 10em 5em;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ff8a00, #e52e71) 1;
+}
+
+button{
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    font-family: 'Bruno Ace SC', cursive;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    
+  }
+  
+  footer p {
+    margin: 0;
+    color: aliceblue;
+}
+
+  
+  footer p:before {
+    content: "\00a0 \00a0";
+  }
+  
+  @media screen and (max-height: 600px) {
+    footer {
+      position: static;
+    }
+  }

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@200&family=Space+Grotesk:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+}
+
+.sub-container1{
+    color: aliceblue;
+    font-size: 2vh;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
+
+.sub-container2{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50vw; 
+    height: 75vh;
+    border: 2px solid;
+    border-color:aliceblue;
+    border-image: linear-gradient(to right, #ff8a00, #e52e71) 1;
+    text-align: center;
+}
+
+.sub-container2 img{
+    width: fit-content;
+    width: 50vw; 
+    height: 75vh;
+}
+
+.sub-container3{
+    text-align: center;
+}
+
+button{
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    font-family: 'Bruno Ace SC', cursive;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 7px;
+    margin-top: 0;
+}
+
+.submit {
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+  
+  footer p {
+    margin: 0;
+    color: aliceblue;
+}
+
+footer p:before {
+    content: "\00a0 \00a0";
+}
+  
+@media screen and (max-height: 600px) {
+    footer {
+      position: static;
+    }
+}

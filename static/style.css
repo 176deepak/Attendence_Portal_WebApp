@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@200&family=Space+Grotesk:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+    margin-top: 2em;   
+}
+
+.sub-container1{
+    color: aliceblue;
+    font-size: 10vh;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.sub-container2{
+    margin-top: 10vh;
+}
+
+.button{
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 4px 5px 4px 5px;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+button{
+    cursor: pointer;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+ 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    
+  }
+  
+  footer p {
+    margin: 0;
+    color: aliceblue;
+}
+
+  
+  footer p:before {
+    content: "\00a0 \00a0";
+  }
+  
+  @media screen and (max-height: 600px) {
+    footer {
+      position: static;
+    }
+  }
+  

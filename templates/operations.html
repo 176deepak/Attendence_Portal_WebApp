@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get started</title>
+    <link rel="stylesheet", href="{{url_for('static', filename='operations.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='icon.ico')}}">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>What you want to do</h1>
+        </div>
+        <div>
+            <div class="sub-container1">
+                <img src="{{url_for('static', filename='Add_Member.png')}}">
+                <br>
+                <button><a href="{{url_for('add_new_face')}}">Add new Face</a></button>
+            </div>
+            <div  class="sub-container2">
+                <img src="{{url_for('static', filename='Mark_Attendense.png')}}">
+                <br>
+                <button><a href="{{url_for('mark_attendance')}}">Mark Attendanse</a></button>
+            </div>    
+        </div>
+    </div>
+    <footer>
+        <p style="color:aliceblue; font-size: small;">Made with <span style="color:#ff1a1a">&#x2764;</span> & &#9749;</p>
+    </footer>
+</body>
+</html>

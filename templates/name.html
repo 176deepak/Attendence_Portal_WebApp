@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@200&family=Space+Grotesk:wght@300&display=swap');
+        body{
+            background-color: black;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        h1{
+            color: aliceblue;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .name{
+            border-radius: 7px;
+            border: none;
+            padding: 3px 0 3px 3px;
+        }
+        .submit {
+            background: linear-gradient(to right, #ff5757, #8c52ff);
+            cursor: pointer;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div>
+        <h1>
+            Enter your name
+        </h1>
+    </div>
+    <div class="form">
+        <form method="post">
+            <input class="name" type="text" placeholder="Enter Name" name="name">
+            <button class="submit" type="submit">Next</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if flag == True: %}
+            Successfull
+           {% else %}
+           Error
+           {% endif %}
+    </title> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@200&family=Space+Grotesk:wght@300&display=swap');
+        body{
+            background-color: black;
+        }
+        .result{
+            text-align: center; 
+            margin-top: 5vh;
+            color: aliceblue;
+            font-family: 'Kanit', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        {% if flag == True: %}
+        <img src="{{url_for('static', filename='success.png')}}">
+        <h1>Congratulations! operation successfull.</h1>
+        {% else %}
+        <img src="{{url_for('static', filename='failure.png')}}">
+        <h1>Try again! Something went wrong.</h1>
+        {% endif %}
+    </div>
+</body>
+</html>
